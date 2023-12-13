@@ -1,0 +1,20 @@
+# Alfabeto:
+A a b
+# Estados:
+Q q0 q1 q2
+# Estado Inicial:
+q q0
+# Estados Finais:
+F q2
+# Transições:
+T q0 a q0
+T q0 b q1
+T q1 a q0
+T q1 b q2
+T q2 a q0
+T q2 b q1
+# Palavras:
+P aaabab
+P bbabab
+P abab
+P aaaa
